@@ -1,4 +1,4 @@
 AuthType    Basic
 AuthName    "ABC-Authentication"
-AuthUserFile
+AuthUserFile    authentication/.htpasswd
 require valid-user
